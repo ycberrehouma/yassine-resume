@@ -1,0 +1,43 @@
+body {
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: black;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+.skills-section {
+    width: 100%;
+    padding: 50px 0;
+    color: white;
+    background: #000000;
+}
+.skills-section .list-group {
+    margin-bottom: 0;
+}
+.skills-section .list-group-item {
+    background-color: transparent;
+    border: 0;
+    text-align: left;
+
+    transition: background-color .2s ease-out, transform .2s ease-out;
+}
+.skills-section .list-group-item:hover {
+    background-color: #696969;
+    transform: perspective(1px) scale(1.05);
+}
+.skills-section .ability-score {
+    float:right;
+}
+.skills-section .fa-star {
+    color: #3c88c9;
+    opacity: 1;
+}
+.skills-section .fa-star.empty {
+    color: #fff;
+    opacity: .15;
+}

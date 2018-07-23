@@ -1,0 +1,8 @@
+resume:
+    path:     /resume
+    defaults: { _controller: yassineBundle:ajout:yassine }
+
+schedule:
+    path:     /schedule
+    defaults: { _controller: yassineBundle:ajout:schedule }
+
